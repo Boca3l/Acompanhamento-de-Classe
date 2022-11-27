@@ -33,6 +33,7 @@ main{
     background-color: rgb(26, 75, 34);
     color: white;
     width: 900px;
+    height: 50vh;
     padding: 30px;
     border-radius: 30px;
 }
@@ -50,6 +51,21 @@ input{
 
 #matricula{
     width: 250px;
+}
+
+.btn{
+    font-weight: bolder;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.btn:active{
+    width: 152px;
+    height: 52px;
+    background-color: rgb(176, 184, 174);
 }
 
 input[type=number]::-webkit-inner-spin-button { 
